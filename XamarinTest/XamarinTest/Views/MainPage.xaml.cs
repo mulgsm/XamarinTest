@@ -11,9 +11,7 @@ namespace XamarinTest.Views {
         Dictionary<int, NavigationPage> MenuPages = new Dictionary<int, NavigationPage>();
         public MainPage() {
             InitializeComponent();
-
             MasterBehavior = MasterBehavior.Popover;
-
             MenuPages.Add((int)MenuItemType.Browse, (NavigationPage)Detail);
         }
 
