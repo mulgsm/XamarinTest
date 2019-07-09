@@ -16,6 +16,7 @@ namespace XamarinTest.Views {
         public MainPage() {
 
 
+
             InitializeComponent();
             MasterBehavior = MasterBehavior.Popover;
 
