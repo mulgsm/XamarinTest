@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
 namespace XamarinTest.Views {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : MasterDetailPage {
@@ -14,15 +13,9 @@ namespace XamarinTest.Views {
 
 
         public MainPage() {
-
-
             InitializeComponent();
             MasterBehavior = MasterBehavior.Popover;
-
-
             MenuPages.Add((int)MenuItemType.Browse, (NavigationPage)Detail);
-
-
         }
 
         public async Task NavigateFromMenu(int id) {
