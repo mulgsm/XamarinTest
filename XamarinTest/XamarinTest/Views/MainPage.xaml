@@ -6,11 +6,9 @@
 
     <MasterDetailPage.Master>
         <views:MenuPage />
-    </MasterDetailPage.Master>
-    
-    
+    </MasterDetailPage.Master>       
 
-    <MasterDetailPage.Detail>
+    <MasterDetailPage.Detail>        
         <NavigationPage>
             <NavigationPage.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
@@ -20,6 +18,6 @@
             <x:Arguments>
                 <views:ItemsPage />
             </x:Arguments>
-        </NavigationPage>
+        </NavigationPage>        
     </MasterDetailPage.Detail>
 </MasterDetailPage>
